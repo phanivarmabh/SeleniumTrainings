@@ -4,7 +4,7 @@ Unittest Framework - Test Automation with Python Mentoring Program #4
 # Logging Functionality
 This project uses a `config.ini` file to manage configuration settings. 
 
-# CustomLogger for unit testing 
+# CustomLogger with unittest 
 The `CustomLogger` class provides an example of how to set up logging and perform unit tests using the `unittest` framework. It demonstrates testing two functions: `add` and `multiply`.
 
 # Database Testing with unittest and HTMLTestRunner
