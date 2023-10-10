@@ -43,3 +43,22 @@ datefmt='%m:%d:%Y
 [formatter_consoleFormatter]
 format=%(levelname)s - %(message)s
 datefmt='%m:%d:%Y
+
+# CustomLogger for unit testing 
+The `CustomLogger` class provides an example of how to set up logging and perform unit tests using the `unittest` framework. It demonstrates testing two functions: `add` and `multiply`.
+
+# TestCase.py for Unit test framework
+This project demonstrates how to perform database testing using Python's `unittest` framework along with `HTMLTestRunner`. It includes test cases for validating a SQL Server database.
+
+## Prerequisites
+- Python (>= 3.x)
+- SQL Server (or another compatible database)
+- Required Python libraries (PyODBC, HTMLTestRunner)
+
+Usage:
+This project contains test cases for validating SQL Server Database. The tests are organized into test suites for different database tables (eg: `UnitMeasure`, `Address`).
+
+Test Suites:
+. `TestUnitMeasure`: Test Cases for the `UnitMeasure` table.
+. `TestAddress`: Test cases for the `Address` table.
+
