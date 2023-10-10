@@ -10,6 +10,10 @@ The `CustomLogger` class provides an example of how to set up logging and perfor
 # Database Testing with unittest and HTMLTestRunner
 The DatabaseTestCase perform database testing using Python's `unittest` framework along with `HTMLTestRunner`. It includes test cases for validating a SQL Server database.
 
+## How to Run unittest framework for database testing?
+. python -m unittest TestCase.py
+. This code executes and creates report for each test suite in /tests/reports folder
+
 ## Prerequisites for Database testing
 - Python (>= 3.x)
 - SQL Server (or another compatible database)
